@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.16 (Build 104) (http://www.copasi.org) at 2016-10-25 13:28:52 UTC -->
+<!-- generated with COPASI 4.16 (Build 104) (http://www.copasi.org) at 2016-10-25 14:54:30 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="16" versionDevel="104" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -117,9 +117,7 @@
     </Function>
     <Function key="Function_44" name="v13" type="UserDefined" reversible="unspecified">
       <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Function_44">
     <dcterms:created>
       <rdf:Description>
@@ -128,16 +126,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
       </MiriamAnnotation>
       <Expression>
         a*b*(substrate - product)
       </Expression>
       <ListOfParameterDescriptions>
-        <ParameterDescription key="FunctionParameter_347" name="a" order="0" role="constant"/>
-        <ParameterDescription key="FunctionParameter_344" name="b" order="1" role="constant"/>
-        <ParameterDescription key="FunctionParameter_346" name="substrate" order="2" role="substrate"/>
-        <ParameterDescription key="FunctionParameter_353" name="product" order="3" role="product"/>
+        <ParameterDescription key="FunctionParameter_283" name="a" order="0" role="constant"/>
+        <ParameterDescription key="FunctionParameter_246" name="b" order="1" role="constant"/>
+        <ParameterDescription key="FunctionParameter_277" name="substrate" order="2" role="substrate"/>
+        <ParameterDescription key="FunctionParameter_285" name="product" order="3" role="product"/>
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
@@ -1174,8 +1171,8 @@ v13
           <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4409" name="Km" value="0"/>
-          <Constant key="Parameter_4410" name="V" value="0.4"/>
+          <Constant key="Parameter_4409" name="Km" value="0.4"/>
+          <Constant key="Parameter_4410" name="V" value="2.8e-11"/>
         </ListOfConstants>
         <KineticLaw function="Function_8">
           <ListOfCallParameters>
@@ -1409,9 +1406,7 @@ v13
       </Reaction>
       <Reaction key="Reaction_12" name="v13: Outward diffusion of CO2" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_12">
     <dcterms:created>
       <rdf:Description>
@@ -1420,7 +1415,6 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           Outward diffusion of CO2 from inner to outer cytoplasmic region, through the concentric thylakoid membrane
@@ -1432,21 +1426,21 @@ v13
           <Product metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4289" name="a" value="0"/>
-          <Constant key="Parameter_4290" name="b" value="37.6099"/>
+          <Constant key="Parameter_4427" name="a" value="0"/>
+          <Constant key="Parameter_4428" name="b" value="37.6099"/>
         </ListOfConstants>
         <KineticLaw function="Function_44">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="ModelValue_25"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
+            <CallParameter functionParameter="FunctionParameter_246">
               <SourceParameter reference="ModelValue_26"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="Metabolite_19"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_353">
+            <CallParameter functionParameter="FunctionParameter_285">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1454,9 +1448,7 @@ v13
       </Reaction>
       <Reaction key="Reaction_13" name="v14: Inward diffusion of accumulated HCO3_m" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_13">
     <dcterms:created>
       <rdf:Description>
@@ -1465,7 +1457,6 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           Inward diffusion of accumulated HCO3_m from outer to inner cytoplasmic regions, through the concentric thylakoid membranes
@@ -1477,21 +1468,21 @@ v13
           <Product metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4288" name="a" value="35"/>
-          <Constant key="Parameter_4291" name="b" value="37.6099"/>
+          <Constant key="Parameter_4429" name="a" value="35"/>
+          <Constant key="Parameter_4430" name="b" value="37.6099"/>
         </ListOfConstants>
         <KineticLaw function="Function_44">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="ModelValue_28"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
+            <CallParameter functionParameter="FunctionParameter_246">
               <SourceParameter reference="ModelValue_26"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_353">
+            <CallParameter functionParameter="FunctionParameter_285">
               <SourceParameter reference="Metabolite_17"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1499,9 +1490,7 @@ v13
       </Reaction>
       <Reaction key="Reaction_14" name="v15: Passive diffusion of CO2" reversible="true" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_14">
     <dcterms:created>
       <rdf:Description>
@@ -1510,7 +1499,6 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           Passive diffusion of CO2 between periplasmic space and cytoplasm
@@ -1522,21 +1510,21 @@ v13
           <Product metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4292" name="a" value="3500"/>
-          <Constant key="Parameter_4293" name="b" value="39.3692"/>
+          <Constant key="Parameter_4431" name="a" value="3500"/>
+          <Constant key="Parameter_4432" name="b" value="39.3692"/>
         </ListOfConstants>
         <KineticLaw function="Function_44">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="ModelValue_11"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
+            <CallParameter functionParameter="FunctionParameter_246">
               <SourceParameter reference="ModelValue_27"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="Metabolite_23"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_353">
+            <CallParameter functionParameter="FunctionParameter_285">
               <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1567,21 +1555,21 @@ v13
           <Product metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4294" name="a" value="0.003"/>
-          <Constant key="Parameter_4295" name="b" value="39.3692"/>
+          <Constant key="Parameter_4433" name="a" value="0.003"/>
+          <Constant key="Parameter_4434" name="b" value="39.3692"/>
         </ListOfConstants>
         <KineticLaw function="Function_44">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="ModelValue_17"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
+            <CallParameter functionParameter="FunctionParameter_246">
               <SourceParameter reference="ModelValue_27"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_353">
+            <CallParameter functionParameter="FunctionParameter_285">
               <SourceParameter reference="Metabolite_21"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -1609,9 +1597,9 @@ v13
           <Product metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4427" name="a" value="1150"/>
-          <Constant key="Parameter_4428" name="b" value="1.87"/>
-          <Constant key="Parameter_4429" name="c" value="3.54"/>
+          <Constant key="Parameter_4435" name="a" value="1150"/>
+          <Constant key="Parameter_4436" name="b" value="1.87"/>
+          <Constant key="Parameter_4437" name="c" value="3.54"/>
         </ListOfConstants>
         <KineticLaw function="Function_43">
           <ListOfCallParameters>
@@ -1655,9 +1643,9 @@ v13
           <Product metabolite="Metabolite_23" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4430" name="a" value="1880"/>
-          <Constant key="Parameter_4431" name="b" value="1.87"/>
-          <Constant key="Parameter_4432" name="c" value="3.54"/>
+          <Constant key="Parameter_4438" name="a" value="1880"/>
+          <Constant key="Parameter_4439" name="b" value="1.87"/>
+          <Constant key="Parameter_4440" name="c" value="3.54"/>
         </ListOfConstants>
         <KineticLaw function="Function_43">
           <ListOfCallParameters>
@@ -1727,7 +1715,7 @@ v13
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_t]" value="80" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_r]" value="200000" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[P_pH]" value="0.003" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[V_cmax]" value="0.4" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[V_cmax]" value="2.8e-11" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_3]" value="0.00263" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[V_e]" value="0" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_4]" value="0.0372" type="ModelValue" simulationType="fixed"/>
@@ -1740,7 +1728,7 @@ v13
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[p_tH]" value="35" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[D_xH]" value="1.29375" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[D_xC]" value="14.375" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_mc]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_mc]" value="0.4" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v1: Dehydration of HCO3_m]" type="Reaction">
@@ -1826,12 +1814,12 @@ v13
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v7: Conversion of CO2 to HCO3_m]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v7: Conversion of CO2 to HCO3_m],ParameterGroup=Parameters,Parameter=Km" value="0" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v7: Conversion of CO2 to HCO3_m],ParameterGroup=Parameters,Parameter=Km" value="0.4" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[K_mc],Reference=InitialValue&gt;
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v7: Conversion of CO2 to HCO3_m],ParameterGroup=Parameters,Parameter=V" value="0.4" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Reactions[v7: Conversion of CO2 to HCO3_m],ParameterGroup=Parameters,Parameter=V" value="2.8e-11" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=FridlyandKaplanReinhold,Vector=Values[V_cmax],Reference=InitialValue&gt;
               </InitialExpression>
@@ -2067,7 +2055,7 @@ v13
       <StateTemplateVariable objectReference="ModelValue_31"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 0 37.60989061171557 39.36918249772585 35 1.29375 14.375 6.022141790000001e+20 1 1 1 1 1 8e-10 30311 1800 6 0.01 0.2 1.73 1.77 1.87 3.54 3500 1880 1150 1.6e-11 80 200000 0.003 0.4 0.00263 0 0.0372 0 8e-12 250 0 0 
+      0 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 0 37.60989061171557 39.36918249772585 35 1.29375 14.375 6.022141790000001e+20 1 1 1 1 1 8e-10 30311 1800 6 0.01 0.2 1.73 1.77 1.87 3.54 3500 1880 1150 1.6e-11 80 200000 0.003 2.8e-11 0.00263 0 0.0372 0 8e-12 250 0 0.4 
     </InitialState>
   </Model>
   <ListOfTasks>
