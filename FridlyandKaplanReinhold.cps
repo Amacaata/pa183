@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.16 (Build 104) (http://www.copasi.org) at 2016-10-25 14:54:30 UTC -->
+<!-- generated with COPASI 4.16 (Build 104) (http://www.copasi.org) at 2016-10-29 16:16:59 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="16" versionDevel="104" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -237,20 +237,28 @@
     </ListOfCompartments>
     <ListOfMetabolites>
       <Metabolite key="Metabolite_1" name="HCO3_m::x" simulationType="reactions" compartment="Compartment_1">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_1">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2016-10-29T18:15:24Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_3" name="CO2::x" simulationType="reactions" compartment="Compartment_1">
       </Metabolite>
-      <Metabolite key="Metabolite_5" name="CO2::c " simulationType="reactions" compartment="Compartment_1">
-      </Metabolite>
-      <Metabolite key="Metabolite_7" name=" HCO3_m::e" simulationType="reactions" compartment="Compartment_1">
-      </Metabolite>
-      <Metabolite key="Metabolite_9" name="CO2::e " simulationType="reactions" compartment="Compartment_1">
-      </Metabolite>
-      <Metabolite key="Metabolite_11" name=" HCO3_m::m" simulationType="reactions" compartment="Compartment_1">
-      </Metabolite>
       <Metabolite key="Metabolite_13" name="HCO3_m::e" simulationType="reactions" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_13">
     <dcterms:created>
       <rdf:Description>
@@ -259,13 +267,30 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_15" name="CO2::e" simulationType="reactions" compartment="Compartment_3">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_15">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2016-10-29T18:15:46Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_17" name="HCO3_m::c" simulationType="reactions" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_17">
     <dcterms:created>
       <rdf:Description>
@@ -274,11 +299,14 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_19" name="CO2::c" simulationType="reactions" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_19">
     <dcterms:created>
       <rdf:Description>
@@ -287,11 +315,26 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_21" name="HCO3_m::p" simulationType="reactions" compartment="Compartment_7">
       </Metabolite>
       <Metabolite key="Metabolite_23" name="CO2::p" simulationType="reactions" compartment="Compartment_7">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_23">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2016-10-29T18:16:07Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_25" name="HCO3_m::m" simulationType="reactions" compartment="Compartment_9">
         <MiriamAnnotation>
@@ -308,7 +351,9 @@
       </Metabolite>
       <Metabolite key="Metabolite_27" name="CO2::m" simulationType="reactions" compartment="Compartment_9">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_27">
     <dcterms:created>
       <rdf:Description>
@@ -317,6 +362,7 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
     </ListOfMetabolites>
@@ -900,7 +946,9 @@ v13
     <ListOfReactions>
       <Reaction key="Reaction_0" name="v1: Dehydration of HCO3_m" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_0">
     <dcterms:created>
       <rdf:Description>
@@ -909,6 +957,7 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Comment>
           Conversion of HCO3_m to CO2 in carboxysome
@@ -992,7 +1041,9 @@ v13
       </Reaction>
       <Reaction key="Reaction_2" name="v3: Dehydration of HCO3_m" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_2">
     <dcterms:created>
       <rdf:Description>
@@ -1001,6 +1052,7 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Comment>
           Uncatalyzed conversion of HCO3_m to CO2 in inner cytoplasmatic region
@@ -1009,7 +1061,7 @@ v13
           <Substrate metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_5" stoichiometry="1"/>
+          <Product metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
           <Constant key="Parameter_4401" name="a" value="0.00263"/>
@@ -1070,7 +1122,9 @@ v13
       </Reaction>
       <Reaction key="Reaction_4" name="v5: Dehydration of HCO3_m" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_4">
     <dcterms:created>
       <rdf:Description>
@@ -1079,15 +1133,16 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Comment>
           Uncatalyzed conversion of HCO3_m to CO2 in outer cytoplasmatic region
         </Comment>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_9" stoichiometry="1"/>
+          <Product metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
           <Constant key="Parameter_4405" name="a" value="0.00263"/>
@@ -1102,7 +1157,7 @@ v13
               <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_262">
-              <SourceParameter reference="Metabolite_7"/>
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
@@ -1148,9 +1203,7 @@ v13
       </Reaction>
       <Reaction key="Reaction_6" name="v7: Conversion of CO2 to HCO3_m" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_6">
     <dcterms:created>
       <rdf:Description>
@@ -1159,7 +1212,6 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           Conversion of CO2 to HCO3_m at (or near) the inner surface of the plasmalemma by energy-dependent CA-like activity
@@ -1532,9 +1584,7 @@ v13
       </Reaction>
       <Reaction key="Reaction_15" name="v16: Diffusion of HCO3_m " reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_15">
     <dcterms:created>
       <rdf:Description>
@@ -1543,7 +1593,6 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Comment>
           Diffusion of HCO3_m across the plasmalema
@@ -1577,7 +1626,9 @@ v13
       </Reaction>
       <Reaction key="Reaction_16" name="v17: Diffusion of HCO3_m " reversible="true" fast="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_16">
     <dcterms:created>
       <rdf:Description>
@@ -1586,12 +1637,13 @@ v13
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Comment>
           Diffusion of HCO3_m between the bulk medium and the perisplasmic space through the unstirred layer
         </Comment>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
           <Product metabolite="Metabolite_21" stoichiometry="1"/>
@@ -1613,7 +1665,7 @@ v13
               <SourceParameter reference="ModelValue_10"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_280">
-              <SourceParameter reference="Metabolite_11"/>
+              <SourceParameter reference="Metabolite_25"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_282">
               <SourceParameter reference="Metabolite_21"/>
@@ -1683,10 +1735,6 @@ v13
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[HCO3_m::x]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[CO2::x]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[CO2::c ]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[ HCO3_m::e]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[CO2::e ]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[x],Vector=Metabolites[ HCO3_m::m]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[e],Vector=Metabolites[HCO3_m::e]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[e],Vector=Metabolites[CO2::e]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=FridlyandKaplanReinhold,Vector=Compartments[c],Vector=Metabolites[HCO3_m::c]" value="6.022141790000001e+20" type="Species" simulationType="reactions"/>
@@ -2010,18 +2058,14 @@ v13
       <StateTemplateVariable objectReference="Metabolite_21"/>
       <StateTemplateVariable objectReference="Metabolite_23"/>
       <StateTemplateVariable objectReference="Metabolite_1"/>
-      <StateTemplateVariable objectReference="Metabolite_9"/>
-      <StateTemplateVariable objectReference="Metabolite_5"/>
-      <StateTemplateVariable objectReference="Metabolite_11"/>
+      <StateTemplateVariable objectReference="Metabolite_25"/>
       <StateTemplateVariable objectReference="Metabolite_27"/>
-      <StateTemplateVariable objectReference="Metabolite_7"/>
       <StateTemplateVariable objectReference="ModelValue_3"/>
       <StateTemplateVariable objectReference="ModelValue_26"/>
       <StateTemplateVariable objectReference="ModelValue_27"/>
       <StateTemplateVariable objectReference="ModelValue_28"/>
       <StateTemplateVariable objectReference="ModelValue_29"/>
       <StateTemplateVariable objectReference="ModelValue_30"/>
-      <StateTemplateVariable objectReference="Metabolite_25"/>
       <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="Compartment_3"/>
       <StateTemplateVariable objectReference="Compartment_5"/>
@@ -2055,7 +2099,7 @@ v13
       <StateTemplateVariable objectReference="ModelValue_31"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 0 37.60989061171557 39.36918249772585 35 1.29375 14.375 6.022141790000001e+20 1 1 1 1 1 8e-10 30311 1800 6 0.01 0.2 1.73 1.77 1.87 3.54 3500 1880 1150 1.6e-11 80 200000 0.003 2.8e-11 0.00263 0 0.0372 0 8e-12 250 0 0.4 
+      0 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 6.022141790000001e+20 0 37.60989061171557 39.36918249772585 35 1.29375 14.375 1 1 1 1 1 8e-10 30311 1800 6 0.01 0.2 1.73 1.77 1.87 3.54 3500 1880 1150 1.6e-11 80 200000 0.003 2.8e-11 0.00263 0 0.0372 0 8e-12 250 0 0.4 
     </InitialState>
   </Model>
   <ListOfTasks>
